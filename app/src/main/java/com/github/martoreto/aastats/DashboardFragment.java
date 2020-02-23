@@ -262,7 +262,7 @@ public class DashboardFragment extends CarFragment {
         for (ImmutableMap.Entry<String, View> gear : mGearViews.entrySet()) {
             gear.getValue().setSelected(currentGear != null && currentGear.equals(gear.getKey()));
         }
-        
+
         // Right panel
 
         Float oilTemp = (Float) mLastMeasurements.get("oilTemperature");

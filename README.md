@@ -8,9 +8,9 @@ It can:
 * display power, torque, boost, gear, oil temp., gearbox temp., battery voltage in this layout:
 
   ![screenshot](media/screenshot1.png)
-  
+
   (of course it's not hard to change!)
-  
+
 * log all the available telemetry to storage in JSON format,
 
 * upload logs to Google BigQuery,
