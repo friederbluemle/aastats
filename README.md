@@ -1,5 +1,7 @@
 # aa-stats
 
+[![ci][1]][2]
+
 This is a more elaborate and quite functional sample app for Android Auto SDK,
 featuring reading telemetry data from the car, using the Vendor Extensions channel.
 
@@ -26,3 +28,6 @@ It can:
    * You also need to rename the application package name (in ``app/build.gradle``) and [obtain ``google-services.json``](https://developers.google.com/mobile/add), and put it in ``app/``.
 
 1. And also install the appropriate aa-vex-* .apk for your car brand (which means initially only VAG cars are supported).
+
+[1]: https://github.com/martoreto/aastats/workflows/ci/badge.svg
+[2]: https://github.com/martoreto/aastats/actions
